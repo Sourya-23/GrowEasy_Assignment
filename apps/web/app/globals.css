@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * GrowEasy palette. Values are approximations from the product screenshots.
+ * Replace with exact sampled hex values before final polish.
+ */
+:root {
+  --brand-teal: #0f9d8f;
+  --brand-teal-dark: #0c8377;
+  --brand-orange: #f26522;
+  --brand-orange-disabled: #f9b896;
+
+  --status-good: #16a34a;
+  --status-good-bg: #dcfce7;
+  --status-sale: #0f9d8f;
+  --status-sale-bg: #d1f2ee;
+  --status-neutral: #6b7280;
+  --status-neutral-bg: #f3f4f6;
+  --status-bad: #dc2626;
+  --status-bad-bg: #fee2e2;
+
+  --bg-page: #f8f9fa;
+  --bg-surface: #ffffff;
+  --border: #e5e7eb;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+}
+
+.dark {
+  --brand-teal: #14b8a6;
+  --brand-teal-dark: #0d9488;
+  --brand-orange: #f97316;
+  --brand-orange-disabled: #7c4a2d;
+
+  --status-good: #4ade80;
+  --status-good-bg: #14321f;
+  --status-sale: #2dd4bf;
+  --status-sale-bg: #0c322e;
+  --status-neutral: #9ca3af;
+  --status-neutral-bg: #1f2937;
+  --status-bad: #f87171;
+  --status-bad-bg: #3a1414;
+
+  --bg-page: #0b0f14;
+  --bg-surface: #131a22;
+  --border: #26303b;
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+}
+
+body {
+  background: var(--bg-page);
+  color: var(--text-primary);
+  font-family: Inter, system-ui, sans-serif;
+}
